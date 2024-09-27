@@ -35,4 +35,4 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3.1.0
       with:
-        path: /home/runner/work/Rino-AC/Rino-AC/build/libs/**.jar
+        path: /home/runner/work/Rino-AC/Rino-AC/build/libs/*.jar
